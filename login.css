@@ -1,0 +1,92 @@
+* {
+     padding:0;
+     margin:0;
+     box-sizing:border-box;
+}
+
+h{
+   color:red;
+}
+
+header {
+         font-family:cursive;
+         font-weight:bolder;
+         text-decoration:underline;
+         text-align:center;
+         color:red;
+} 
+
+h4{
+    text-align:center;
+    color:white;
+}
+
+body {
+       font-family:"fantasy";
+       background:linear-gradient( #005AA7, #FFFDE4);
+}
+
+section {
+          min-height:100vh;
+          width:100%;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+        
+}
+
+.container {
+             max-width:400px;
+             width:90%;
+             padding:20px;
+             box-shadow:0px 0px 20px #00000030;
+             border-radius:10px;
+             background-color:white;
+}
+
+.form-group {
+              width:100%;
+              margin-top:20px;
+}
+
+.form-group input {
+                    width:100%;
+                    border:1.5px solid rgba(128,128,128,0.418);
+                    padding:5px;
+                    font-size:18px;
+                    margin-top:5px;
+                    border-radius:8px;
+}
+
+button.submit-btn {
+                    float:right;
+                    margin-top:20px;
+                    padding:10px 30px;
+                    border:none;
+                    outline:none;
+                    background-color:rgb(190,205,235);
+                    font-family:"fantasy";
+                    font-size:18px;
+                    cursor:pointer;/*text-align:right;*/
+}
+
+footer {
+         font-family:serif;
+         text-align:center;
+         color:black;
+}
+
+h6{
+           float:right;
+                    margin-top:8px;
+                    padding:0px 5px;
+                    border:none;
+                    outline:none;
+                    font-family:"fantasy";
+                    font-size:18px;
+                    cursor:pointer;/*text-align:right;*/
+}
+
+b{
+    color:red;
+}
